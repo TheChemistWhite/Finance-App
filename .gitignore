@@ -1,0 +1,47 @@
+# ---- Dependencies ----
+node_modules/
+**/node_modules/
+
+# ---- Secrets / environment ----
+# NEVER commit real keys. Only the *.example templates are tracked.
+.env
+**/.env
+.env.*
+!.env.example
+!**/.env.example
+
+# ---- Encrypted datastore (contains device pairing + cached balances) ----
+server/data/
+
+# ---- Build output ----
+app/dist/
+**/dist/
+app/vite.config.js.timestamp-*.mjs
+
+# ---- Capacitor / Android build artifacts ----
+app/android/.gradle/
+app/android/build/
+app/android/app/build/
+app/android/capacitor-cordova-android-plugins/build/
+app/android/local.properties
+app/android/.idea/
+app/android/app/release/
+*.keystore
+*.jks
+
+# ---- iOS (if added later) ----
+app/ios/App/Pods/
+app/ios/App/build/
+app/ios/DerivedData/
+
+# ---- Handoff bundle / scratch ----
+extracted/
+*-handoff.zip
+
+# ---- Editor / OS ----
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+*.log
+npm-debug.log*

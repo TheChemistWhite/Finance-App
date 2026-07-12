@@ -1,0 +1,17 @@
+{
+  "appId": "com.vibrantwallet.app",
+  "appName": "Vibrant Wallet",
+  "webDir": "dist",
+  "backgroundColor": "#0a0a0f",
+  "server": {
+    "androidScheme": "http"
+  },
+  "ios": {
+    "contentInset": "always"
+  },
+  "plugins": {
+    "SecureStoragePlugin": {
+      "accessGroup": null
+    }
+  }
+}
