@@ -135,6 +135,10 @@ Per legge (PSD2) l'accesso ai conti passa da un provider AISP licenziato. Il bac
 
 Progetto personale a scopo dimostrativo/didattico. I dati bancari mostrati sono **simulati**. Non è un servizio finanziario e non gestisce denaro reale.
 
+## 📄 Licenza
+
+Distribuito con licenza **MIT** — vedi il file [`LICENSE`](LICENSE). Sei libero di usare, modificare e ridistribuire il codice mantenendo la nota di copyright.
+
 ## 🙌 Crediti
 
 Interfaccia prototipata con **Claude Design** e sviluppata con l'assistenza di **Claude**. Font: *Space Grotesk* e *IBM Plex Sans*.
